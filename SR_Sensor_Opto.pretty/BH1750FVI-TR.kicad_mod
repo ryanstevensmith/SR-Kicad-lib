@@ -1,0 +1,229 @@
+(footprint "BH1750FVI-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.226565 -1.937485 0)
+		(layer "F.SilkS")
+		(uuid "9deb4840-6f9e-42ad-a9cf-379ea9bd66fc")
+		(effects
+			(font
+				(size 1.001283 1.001283)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BH1750FVI-TR"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "0888e997-d0c8-44ce-8eaf-8dc838ff8b8b")
+		(effects
+			(font
+				(size 1.001039 1.001039)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80d9a101-64ea-40f9-bf07-8d82ae468715")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35f52342-a767-4b51-9c39-3325213f3c4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.78 0.8)
+		(end 0.78 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6550e354-4ab8-4653-a5e3-ed1948438635")
+	)
+	(fp_line
+		(start 0.78 -0.8)
+		(end -0.78 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2189747e-77f6-409a-9c50-3f3c5a615eca")
+	)
+	(fp_circle
+		(center -2.1 -0.5)
+		(end -2 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2972e68d-75b3-47b2-9f41-118facc1f10f")
+	)
+	(fp_line
+		(start -1.9 -1.05)
+		(end 1.9 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a62ea1dd-1398-4744-a614-cb87be9b0dd1")
+	)
+	(fp_line
+		(start -1.9 1.05)
+		(end -1.9 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5a2eb70-7256-4c9b-8551-2ab3981f9ea4")
+	)
+	(fp_line
+		(start 1.9 -1.05)
+		(end 1.9 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea5b48f5-40e3-46c1-82a4-5f6e7c2d08d1")
+	)
+	(fp_line
+		(start 1.9 1.05)
+		(end -1.9 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a910d1d1-2439-45c5-b50e-f8f1ddb2452e")
+	)
+	(fp_line
+		(start -1.3 -0.8)
+		(end -1.3 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19822185-7a05-4908-a11c-d5b8ef8e8521")
+	)
+	(fp_line
+		(start -1.3 0.8)
+		(end 1.3 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f042c73-1a36-42b3-ae44-95578938be4e")
+	)
+	(fp_line
+		(start 1.3 -0.8)
+		(end -1.3 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad844ee8-60b0-4549-b1e8-9809fb191a23")
+	)
+	(fp_line
+		(start 1.3 0.8)
+		(end 1.3 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f438df8d-cb0e-4cf4-bb5d-f33a7ff1857e")
+	)
+	(fp_circle
+		(center -2.1 -0.5)
+		(end -2 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc3e472a-6f82-4255-91a4-c70d7da9570e")
+	)
+	(pad "1" smd rect
+		(at -1.375 -0.5)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c7420456-0428-49db-8b50-6eefd5432000")
+	)
+	(pad "2" smd rect
+		(at -1.375 0)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "82e46f23-56ca-4b65-8616-7687cf91fcfe")
+	)
+	(pad "3" smd rect
+		(at -1.375 0.5)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f324fdba-61a9-4a3a-b059-b319739397a7")
+	)
+	(pad "4" smd rect
+		(at 1.375 0.5)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f2ece240-c452-401d-8ab3-e862b4246a36")
+	)
+	(pad "5" smd rect
+		(at 1.375 0)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5662a256-ba17-49d8-a3a1-309100e25e9d")
+	)
+	(pad "6" smd rect
+		(at 1.375 -0.5)
+		(size 0.55 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d6223566-ef7f-426d-a508-c796595ff42a")
+	)
+	(embedded_fonts no)
+	(model "${SR_SYMBOL_FOOT_DIR}/3D/Sensor_Opto/BH1750FVI-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

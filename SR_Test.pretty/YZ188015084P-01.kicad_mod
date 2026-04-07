@@ -1,0 +1,91 @@
+(footprint "YZ188015084P-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6mm 8.4mm Brass Gold Pogo Pin")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "254cecdc-955b-4f16-89b6-2ca077a3daa9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "YZ188015084P-01"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fab30dd6-adba-4c8c-b28b-3d74f33f7a5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590446852572688384"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e18c4735-94d1-4be3-a5ae-41e3f32d7014")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83b3a077-6a43-4798-a7ab-4ce403dbdc82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "233bf2d0-47af-47f1-8b3a-92e7afbd0c1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4462197-1101-43da-8bd2-868134e6e881")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_USER_RPICM_REPO_DIR}/3D/Test/YZ188015084P-01.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,213 @@
+(footprint "SPV0142LR5H-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ANALOG BOTTOM PORT")
+	(property "Reference" "REF**"
+		(at 0 -2.975 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f96e0bdc-fe3a-4257-828a-80587c76b5fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPV0142LR5H-1"
+		(at 0 7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "177c9e34-b4a9-4f87-a75a-4822f8b6acad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5337/SPV0142LR5H-1_DS.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d01692f-ffb4-4e90-984f-25f4d077c778")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ANALOG BOTTOM PORT SISONIC™ MICROPHONE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd8ec36f-cc5c-4794-b716-1df7043bb648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -1.9)
+		(end -0.95 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c169e048-6516-4351-8e01-d1f88cfd4fda")
+	)
+	(fp_line
+		(start -0.95 0.9)
+		(end 0.95 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18e6616e-f4bd-4571-ade6-96ea537e6203")
+	)
+	(fp_line
+		(start 0 -1.9)
+		(end -0.95 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b1b6acb-1d43-42de-b2c5-e3b9c853e5c5")
+	)
+	(fp_line
+		(start 0.95 -1.9)
+		(end 0 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d9d289-85a6-4afd-85ff-e84505e9f127")
+	)
+	(fp_line
+		(start 0.95 -1.9)
+		(end 0.95 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "10e11114-d8c2-47ee-9d9b-f9f034a94263")
+	)
+	(fp_arc
+		(start -0.6 0)
+		(mid -0.532207 -0.277049)
+		(end -0.344146 -0.491491)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "4649e9fb-1de4-4977-9921-e27001a7ad9b")
+	)
+	(fp_arc
+		(start 0 -0.6)
+		(mid 0.277049 -0.532207)
+		(end 0.491491 -0.344146)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "08cf6f9b-bd99-4c35-a836-18b760a58816")
+	)
+	(fp_arc
+		(start 0 0.6)
+		(mid -0.277049 0.532207)
+		(end -0.491491 0.344146)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "b596ab05-e65b-4850-92b6-d0fc4d5ce429")
+	)
+	(fp_arc
+		(start 0.599998 0.000003)
+		(mid 0.532205 0.277052)
+		(end 0.344144 0.491494)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "c8bb9cc0-c597-4558-bae7-ca070f7f4152")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a617641d-2060-4d9f-9a5c-47cbe61ef3f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -0.000002 0.000003)
+		(size 0.15 0.15)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9cf0ba5d-88b2-4f64-aeb5-4f2696b5342f")
+	)
+	(pad "1" smd rect
+		(at 0.475 -1.4775)
+		(size 0.65 0.545)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0248a61d-e0c1-4073-ae6b-cb92f8467016")
+	)
+	(pad "2" smd rect
+		(at -0.475 -1.4775)
+		(size 0.65 0.545)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a26e8bdd-27f4-4b07-b1cc-2e3ad517b6ed")
+	)
+	(pad "3" smd custom
+		(at 0.599998 0.000005)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center -0.6 -0.000002)
+				(end 0 0)
+				(width 0.25)
+				(fill no)
+			)
+		)
+		(uuid "8fd718f6-a1af-4baa-b44b-b6bae064a6fc")
+	)
+	(embedded_fonts no)
+	(model "${SR_SYMBOL_FOOT_DIR}/3D/Sensor_Audio/SPV0142LR5H.step"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
